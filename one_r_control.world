@@ -1,0 +1,27 @@
+<?xml version = "1.0"?>
+<sdf version = "1.5">
+  <world name = "default">
+
+    <!-- Ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Sun -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- My manipulator -->
+    <include>
+      <uri>model://one_r_test</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- Testing Gazebo database model -->
+    <include>
+      <uri>model://simple_arm</uri>
+      <pose>4 4 0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>
